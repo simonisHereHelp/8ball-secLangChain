@@ -2,14 +2,9 @@
   "name": "sec-edgar-agentkit",
   "version": "0.1.0",
   "private": true,
-  "description": "Monorepo for SEC EDGAR agent toolkit integrations",
+  "description": "LangChain-first SEC EDGAR toolkit monorepo",
   "workspaces": [
-    "integrations/langchain/typescript",
-    "integrations/langgraph",
-    "integrations/mcp-use",
-    "integrations/gradio",
-    "integrations/dify",
-    "integrations/smolagents"
+    "integrations/langchain/typescript"
   ],
   "scripts": {
     "build": "nx run-many -t build",
@@ -21,9 +16,6 @@
     "sec",
     "edgar",
     "langchain",
-    "mcp",
-    "gradio",
-    "dify",
     "agent",
     "financial",
     "analysis"
@@ -35,7 +27,6 @@
     "@langchain/openai": "^0.3.0",
     "@modelcontextprotocol/sdk": "^1.0.0",
     "langchain": "^0.3.0",
-    "mcp-use": "^0.1.0",
     "zod": "^3.23.0"
   },
   "devDependencies": {

@@ -1,5 +1,0 @@
-gradio>=4.0.0
-sec-edgar-mcp
-pandas
-plotly
-numpy

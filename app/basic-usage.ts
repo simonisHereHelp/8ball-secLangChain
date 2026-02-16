@@ -1,7 +1,7 @@
 import { ChatOpenAI } from '@langchain/openai';
 import { AgentExecutor, createStructuredChatAgent } from 'langchain/agents';
 import { ChatPromptTemplate } from '@langchain/core/prompts';
-import { SECEdgarAgentToolkit } from '../integrations/langchain';
+import { SECEdgarAgentToolkit } from '../integrations/langchain/typescript';
 
 async function main() {
   // Initialize the SEC EDGAR toolkit
